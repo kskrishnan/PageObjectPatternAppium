@@ -1,7 +1,7 @@
 package com.appium.tests;
 
 import com.appium.config.JSonParser;
-import com.appium.config.UserBaseTest;
+import com.appium.config.TestBase;
 import com.appium.config.UserCredentials;
 import com.appium.pages.LoginPage;
 import org.testng.Assert;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 /**
  * Created by saikrisv on 26/06/16.
  */
-public class MultiLoginTest extends UserBaseTest {
+public class MultiLoginTest extends TestBase {
 
     LoginPage loginPage;
     UserCredentials credentials;

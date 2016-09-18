@@ -1,14 +1,14 @@
 package com.appium.tests;
 
 import com.annotation.values.Author;
-import com.appium.config.UserBaseTest;
+import com.appium.config.TestBase;
 import com.appium.config.UserCredentials;
 import com.appium.pages.AccountsPage;
 import com.appium.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTest extends UserBaseTest {
+public class LoginTest extends TestBase {
 
     LoginPage loginPage;
     AccountsPage accountsPage;

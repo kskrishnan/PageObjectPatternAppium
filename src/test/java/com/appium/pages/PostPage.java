@@ -1,13 +1,13 @@
 package com.appium.pages;
 
-import com.appium.config.CommonAppiumTest;
+import com.appium.config.PageBase;
 import com.appium.page.objects.PostPageObjects;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
-public class PostPage extends CommonAppiumTest {
+public class PostPage extends PageBase {
     PostPageObjects postPageObjects = new PostPageObjects();
 
     public PostPage(AppiumDriver<MobileElement> driver) {

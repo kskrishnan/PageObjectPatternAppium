@@ -1,7 +1,7 @@
 package com.appium.pages;
 
 import com.annotation.values.PageName;
-import com.appium.config.CommonAppiumTest;
+import com.appium.config.PageBase;
 import com.appium.config.DeviceInterface;
 import com.appium.config.ViewFactory;
 import com.appium.page.objects.LoginPageObjects;
@@ -11,7 +11,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
 @PageName("Login Page")
-public class LoginPage extends CommonAppiumTest {
+public class LoginPage extends PageBase {
     public ViewFactory viewFactory = new ViewFactory(driver);
     public DeviceInterface runnerInfo;
     public LoginPageObjects loginPageObjects = new LoginPageObjects();

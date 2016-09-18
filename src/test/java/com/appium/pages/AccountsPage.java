@@ -1,13 +1,13 @@
 package com.appium.pages;
 
-import com.appium.config.CommonAppiumTest;
+import com.appium.config.PageBase;
 import com.appium.page.objects.AccountsPageObject;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
-public class AccountsPage extends CommonAppiumTest {
+public class AccountsPage extends PageBase {
 
     AccountsPageObject accountsPageObject = new AccountsPageObject();
 

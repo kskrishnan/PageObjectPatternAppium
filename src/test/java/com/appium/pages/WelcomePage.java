@@ -1,6 +1,6 @@
 package com.appium.pages;
 
-import com.appium.config.CommonAppiumTest;
+import com.appium.config.PageBase;
 import com.appium.config.DeviceInterface;
 import com.appium.config.ViewFactory;
 import com.appium.page.objects.WelcomePageObjects;
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class WelcomePage extends CommonAppiumTest {
+public class WelcomePage extends PageBase {
     public ViewFactory viewFactory = new ViewFactory(driver);
     public DeviceInterface runnerInfo;
     WelcomePageObjects welcomePageObjects = new WelcomePageObjects();

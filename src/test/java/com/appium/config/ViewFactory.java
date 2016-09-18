@@ -5,7 +5,7 @@ import com.appium.screen.flows.iOSFlow;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 
-public class ViewFactory extends CommonAppiumTest {
+public class ViewFactory extends PageBase {
 
     private AndroidFlow androidFlow;
     private iOSFlow iosFlow;

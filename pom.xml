@@ -21,9 +21,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.saikrishna321</groupId>
+            <groupId>com.github.kskrishnan</groupId>
             <artifactId>AppiumTestDistribution</artifactId>
-            <version>2dcc0b9476</version>
+            <version>1.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.github.saikrishna321</groupId>

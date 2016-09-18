@@ -1,6 +1,6 @@
 package com.appium.pages;
 
-import com.appium.config.CommonAppiumTest;
+import com.appium.config.PageBase;
 import com.appium.page.objects.CommentPageObjects;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -8,7 +8,7 @@ import io.appium.java_client.SwipeElementDirection;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 
-public class CommentPage extends CommonAppiumTest {
+public class CommentPage extends PageBase {
 
     CommentPageObjects commentPageObjects = new CommentPageObjects();
 

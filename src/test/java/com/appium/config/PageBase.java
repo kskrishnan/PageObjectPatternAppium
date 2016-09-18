@@ -17,12 +17,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Set;
 
-public class CommonAppiumTest {
+public class PageBase {
     public AppiumDriver driver;
     public AppiumParallelTest appiumParallelTest = new AppiumParallelTest();
-    Logger logger = Logger.getLogger(CommonAppiumTest.class);
+    Logger logger = Logger.getLogger(PageBase.class);
 
-    public CommonAppiumTest(AppiumDriver<MobileElement> driver) {
+    public PageBase(AppiumDriver<MobileElement> driver) {
         this.driver = driver;
     }
 

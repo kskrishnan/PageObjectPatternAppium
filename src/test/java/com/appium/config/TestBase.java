@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.URISyntaxException;
 
-public class UserBaseTest extends AppiumParallelTest {
+public class TestBase extends AppiumParallelTest {
 
     JSonParser jSonParser = new JSonParser();
 

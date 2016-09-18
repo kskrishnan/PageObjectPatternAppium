@@ -1,13 +1,13 @@
 package com.appium.tests;
 
-import com.appium.config.UserBaseTest;
+import com.appium.config.TestBase;
 import com.appium.config.UserCredentials;
 import com.appium.pages.LoginPage;
 import com.appium.pages.PostPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class WritePostTest1 extends UserBaseTest {
+public class WritePostTest1 extends TestBase {
 
     LoginPage loginPage;
     UserCredentials credentials;

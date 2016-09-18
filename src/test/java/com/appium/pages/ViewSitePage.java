@@ -1,6 +1,6 @@
 package com.appium.pages;
 
-import com.appium.config.CommonAppiumTest;
+import com.appium.config.PageBase;
 import com.appium.config.DeviceInterface;
 import com.appium.config.ViewFactory;
 import com.appium.page.objects.ViewSitePageObject;
@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by saikrisv on 28/03/16.
  */
-public class ViewSitePage extends CommonAppiumTest {
+public class ViewSitePage extends PageBase {
 
     public ViewFactory viewFactory = new ViewFactory(driver);
     public DeviceInterface runnerInfo;

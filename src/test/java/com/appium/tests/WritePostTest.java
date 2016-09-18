@@ -1,7 +1,7 @@
 package com.appium.tests;
 
 import com.annotation.values.Description;
-import com.appium.config.UserBaseTest;
+import com.appium.config.TestBase;
 import com.appium.config.UserCredentials;
 import com.appium.pages.LoginPage;
 import com.appium.pages.PostPage;
@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 @Description("Test to check if user can write post and also delete the post")
-public class WritePostTest extends UserBaseTest {
+public class WritePostTest extends TestBase {
 
     LoginPage loginPage;
     UserCredentials credentials;
